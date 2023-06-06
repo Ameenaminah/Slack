@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1em 2em;
+
+}
+
+ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+}
+nav a {
+  color: black;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-btn{
+  background-color: purple;
+  border-radius: 10px;
+  padding:1em 2em;
+  border: none;
+  color: wheat;
+  margin-left: 1em;
+}
+button{
+  all: unset;
+}
